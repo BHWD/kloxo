@@ -65,12 +65,14 @@ if(!$cgi_forgotpwd ){
                                 <span class="add-on"><i class="halflings-icon lock"></i></span>
                                 <input class="input-large span10" name="frm_password" id="password" type="password" placeholder="type password"/>
                             </div>
-
-
-
+<div class="clearfix"></div>
+<input type="hidden" name="id" value="<?php echo mt_rand() ?>" />
+<div class="clearfix"></div>
+<div class="button-login">  
+                                <button type="submit" name="login" class="btn btn-primary">Login</button>
+                            </div>
+                            <div class="clearfix"></div>
                     
-                            <input type="hidden" name="id" value="<?php echo mt_rand() ?>" />
-                            <div align="left"><input type="submit" class="button" name="login" value="Login" /></div>
                         </div>
                     </form>
                     <hr>
