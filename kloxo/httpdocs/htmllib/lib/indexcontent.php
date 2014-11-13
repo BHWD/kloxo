@@ -22,7 +22,6 @@ if(!$cgi_forgotpwd ){
     } else {
         ?>
 
-fddfbidfiojdfiojbiodfjobijoi
         <div id="ctr" align="center">
             <div class="login">
                 <div class="login-form">
