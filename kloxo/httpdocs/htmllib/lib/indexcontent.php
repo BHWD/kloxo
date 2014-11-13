@@ -87,8 +87,7 @@ if(!$cgi_forgotpwd ){
 
     </div><!--/.fluid-container-->
 </div>
-</div>
-</div>
+
         <div id="break"></div> 
 
     <?php
@@ -101,26 +100,48 @@ elseif ($cgi_forgotpwd == 1) {
     ?>
 ############################################### NEW FORM ############################################
 
+<div class="container-fluid-full">
+        <div class="row-fluid">
+                    
+            <div class="row-fluid">
+                <div class="login-box">
+                    <div class="icons">
+                        <a href="index.html"><i class="halflings-icon home"></i></a>
+                        <a href="#"><i class="halflings-icon cog"></i></a>
+                    </div>
+                    <H2 lass="text-center">Welcome to <?php echo  $sgbl->__var_program_name; ?><br>Use a valid username and email-id to get password.</H2>
+                   <form  class="form-horizontal" name="sendmail" action="/login/" method="post">
 
 
 
+<div class="input-prepend" title="Username">
+                                <span class="add-on"><i class="halflings-icon user"></i></span>
+                                <input class="input-large span10" name="frm_clientname" id="username" type="text" placeholder="type username"/>
+                            </div>
+<div class="clearfix"></div>
+
+<div class="input-prepend" title="Password">
+                                <span class="add-on"><i class="halflings-icon lock"></i></span>
+                                <input class="input-large span10" name="frm_email" id="password" type="password" placeholder="type password"/>
+                            </div>
+<div class="clearfix"></div>
+<div class="button-login">  
+                                <button type="submit" name="login" class="btn btn-primary">Login</button>
+                            </div>
+                            <div class="clearfix"></div>
+                    <input type="hidden" name="frm_forgotpwd" value="2" />
+                    </form>
+                    <hr><h3>
+                        <a class="forgotpwd" href="javascript:history.go(-1);">Return To Login</a>.  </h3> 
+                    <script> document.sendmail.frm_clientname.focus(); </script>
+            </div>
+                </div><!--/span-->
+            </div><!--/row-->
+           
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </div><!--/.fluid-container-->
+</div>
 
 
 
@@ -128,36 +149,7 @@ elseif ($cgi_forgotpwd == 1) {
 
 
 ################################## ORIGNAL FORM ##################################################
-    <div id="ctr" align="center">
-        <div class="login">
-            <div class="login-form">
-                <div align="center"><font name=Verdana size=5 color=red ><b> Forgot Password </b></font></div>
-                <br />
-                <form name="sendmail" action="/login/" method="post">
-                    <div class="form-block">
-                        <div class="inputlabel">Username</div>
-                        <input name="frm_clientname" type="text" class="inputbox" size="30" />
-                        <div class="inputlabel">Email Id</div>
-                        <input name="frm_email" type="text" class="passbox" size="30" />
-                        <br />
-                        <div align="left"><input type="submit" class="button" name="forgot" value="Send" /></div>
-                    </div>
-                    <input type="hidden" name="frm_forgotpwd" value="2" />
-                </form>
-            </div>
-            <div class="login-text">
-                <div class="ctr"><img border=0 src="/img/login/icon1.gif" width="64" height="64" alt="security" /></div>
-                <p>Welcome to <?php echo  $sgbl->__var_program_name; ?></p>
-                <p>Use a valid username and email-id to get password.</p>
-                <br />
-                <a class=forgotpwd href="javascript:history.go(-1);"><font color="black"><u>Back to login</u></a>
-            </div>
-
-            <script> document.sendmail.frm_clientname.focus(); </script>
-
-            <div class="clr"></div>
-        </div>
-    </div>
+ 
     <div id="break"></div>
 
 <?php
