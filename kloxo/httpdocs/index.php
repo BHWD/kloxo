@@ -17,7 +17,11 @@ function domainshow()
 	$url = "a=show";
 	$url = $ghtml->getFullUrl($url);
 
-
+	if (lxfile_exists("lbin/header_vendor.php")) {
+		$file = "/lbin/header_vendor.php";
+	} else {
+		$file = "/lbin/header.php";
+	}
 
 	$sp = $login->getSpecialObject('sp_specialplay');
 
