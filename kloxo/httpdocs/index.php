@@ -57,7 +57,7 @@ function domainshow()
     $headerheight = 29;
 
 	if ($login->isDefaultSkin()) {
-		$headerheight = 93;
+		$headerheight = 0;
 	} else  {
 		if ($login->getSpecialObject('sp_specialplay')->isOn('show_thin_header')) {
 			$headerheight = 29;
