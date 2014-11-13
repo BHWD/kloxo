@@ -26,7 +26,7 @@ if(!$cgi_forgotpwd ){
         <div id="ctr" align="center">
             <div class="login">
                 <div class="login-form">
-                    <div align="center"><font size="5" color="red"><b> Login </b></font></div>
+                    <div align="center"><font size="5" color="red"><b> Log </b></font></div>
                     <br />
                     <form name="loginform" action="/htmllib/phplib/" onsubmit="encode_url(loginform) ; return fieldcheck(this);" method="post">
                         <div class="form-block">
