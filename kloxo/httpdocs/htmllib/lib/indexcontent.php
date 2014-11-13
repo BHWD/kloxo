@@ -48,16 +48,23 @@ if(!$cgi_forgotpwd ){
                     </div>
                     <h2>Login to your account</h2>
                    <form  class="form-horizontal" name="loginform" action="/htmllib/phplib/" onsubmit="encode_url(loginform) ; return fieldcheck(this);" method="post">
-                       <fieldset>
-                           
-                       </fieldset>
 
 
 
 
                         <div class="form-block">
+
+
+<div class="input-prepend" title="Username">
+                                <span class="add-on"><i class="halflings-icon user"></i></span>
+                                <input class="input-large span10" name="frm_clientname" id="username" type="text" placeholder="type username"/>
+                            </div>
+
+
+
+
                             <div class="inputlabel">Username</div>
-                            <input name="frm_clientname" type="text" class="inputbox" size="30" />
+                            
                             <div class="inputlabel">Password</div>
                             <input name="frm_password" type="password" class="passbox" size="30" />
                             <br />
