@@ -98,8 +98,21 @@ if(!$cgi_forgotpwd ){
 }
 elseif ($cgi_forgotpwd == 1) {
     ?>
-############################################### NEW FORM ############################################
-
+<!-- ############################################### NEW FORM ############################################ -->
+ <!-- start: Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- end: Mobile Specific -->
+    
+    <!-- start: CSS -->
+    <link id="bootstrap-style" href="/htmllib/rh14/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/htmllib/rh14/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link id="base-style" href="/htmllib/rh14/css/style.css" rel="stylesheet">
+    <link id="base-style-responsive" href="/htmllib/rh14/css/style-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,latin-ext' rel='stylesheet' type='text/css'>
+    <!-- end: CSS -->
+<style type="text/css">
+            body { background: url(/htmllib/rh14/img/bg-login.jpg) !important; }
+        </style>
 <div class="container-fluid-full">
         <div class="row-fluid">
                     
@@ -148,7 +161,7 @@ elseif ($cgi_forgotpwd == 1) {
 
 
 
-################################## ORIGNAL FORM ##################################################
+<!-- ################################## ORIGNAL FORM ################################################## -->
  
     <div id="break"></div>
 
