@@ -79,36 +79,16 @@ if(!$cgi_forgotpwd ){
                         <input type="hidden" name="frm_forgotpwd" value="1" />
                     </form>
                     <script> document.loginform.frm_clientname.focus(); </script>
-                    
-                <div class="clr"></div>
             </div>
                 </div><!--/span-->
             </div><!--/row-->
-            
+           
+
 
     </div><!--/.fluid-container-->
-
-
-
-        <div id="ctr" align="center">
-            <div class="login">
-                <div class="login-form">
-                    <div align="center"><font size="5" color="red"><b> Login </b></font></div>
-                    <br />
-                    <form name="loginform" action="/htmllib/phplib/" onsubmit="encode_url(loginform) ; return fieldcheck(this);" method="post">
-                        <div class="form-block">
-                            <div class="inputlabel">Username</div>
-                            <input name="frm_clientname" type="text" class="inputbox" size="30" />
-                            <div class="inputlabel">Password</div>
-                            <input name="frm_password" type="password" class="passbox" size="30" />
-                            <br />
-                            <input type="hidden" name="id" value="<?php echo mt_rand() ?>" />
-                            <div align="left"><input type="submit" class="button" name="login" value="Login" /></div>
-                        </div>
-                    </form>
-                </div>
-                
-        </div>
+</div>
+</div>
+</div>
         <div id="break"></div> 
 
     <?php
@@ -119,7 +99,35 @@ if(!$cgi_forgotpwd ){
 }
 elseif ($cgi_forgotpwd == 1) {
     ?>
+############################################### NEW FORM ############################################
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################################## ORIGNAL FORM ##################################################
     <div id="ctr" align="center">
         <div class="login">
             <div class="login-form">
