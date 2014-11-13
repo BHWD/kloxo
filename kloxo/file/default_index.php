@@ -23,24 +23,7 @@
 			<link href="/htmllib/lib/admin_login.css" rel="stylesheet" type="text/css">
 	</head>
 <body>
-<table class="header">
-	<tr>
-		<td valign="top" width="100%"><img class="logo" src="images/logo.png" height="75" alt="hosting-logo"></td>
-		<td>
-			<table class="content">
-				<tr>
-					<td><a href="http://lxcenter.org/" title="Go to LxCenter website"><img class="logo" src="images/lxcenter.png" alt="lxcenter-logo" width="120" height="35"></a></td>
-				</tr>
-				<tr>
-					<td><a href="http://lxcenter.org/software/kloxo/" title="Go to Kloxo website"><img class="logo" src="images/kloxo.png" alt="kloxo-logo" width="120" height="27"></a></td>
-				</tr>
-			</table>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="2" bgcolor="#000000">&nbsp;</td>
-	</tr>
-</table>
+
 <table class="content">
 	<tr>
 		<td width="50">&nbsp;</td><td valign="top"><?php include_once $incfile; ?></td>
