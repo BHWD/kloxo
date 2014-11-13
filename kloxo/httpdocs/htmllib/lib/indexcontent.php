@@ -51,10 +51,6 @@ if(!$cgi_forgotpwd ){
 
 
 
-
-                        <div class="form-block">
-
-
 <div class="input-prepend" title="Username">
                                 <span class="add-on"><i class="halflings-icon user"></i></span>
                                 <input class="input-large span10" name="frm_clientname" id="username" type="text" placeholder="type username"/>
@@ -73,7 +69,6 @@ if(!$cgi_forgotpwd ){
                             </div>
                             <div class="clearfix"></div>
                     
-                        </div>
                     </form>
                     <hr>
                     <h3>Forgot Password?</h3>
