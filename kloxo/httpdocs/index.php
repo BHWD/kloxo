@@ -87,8 +87,6 @@ function domainshow()
 	print("</FRAMESET>\n");
 
 ?>
-
-
 </head>
 <body>
 </body>
