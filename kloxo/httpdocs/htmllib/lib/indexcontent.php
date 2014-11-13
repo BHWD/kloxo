@@ -76,9 +76,11 @@ if(!$cgi_forgotpwd ){
                         No problem, <a href="javascript:document.forgotpassword.submit()">click here</a> to get a new password.
                     </p>    
 
+                      <a class="forgotpwd" href="javascript:document.forgotpassword.submit()"><font color="black"><u>Forgot Password?</u></a>
                     <form name="forgotpassword" method="post" action="/login/">
                         <input type="hidden" name="frm_forgotpwd" value="1" />
                     </form>
+                    <script> document.loginform.frm_clientname.focus(); </script>
                 </div><!--/span-->
             </div><!--/row-->
             
