@@ -27,7 +27,7 @@
 <table class="content">
 	<tr>
 		<td width="50">&nbsp;</td><td valign="top"><?php include_once $incfile; ?></td>
-		<td width="280" valign="center"><img src="images/disableskeletonbg.gif"></td>
+		
 	</tr>
 </table>
 
