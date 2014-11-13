@@ -73,8 +73,12 @@ if(!$cgi_forgotpwd ){
                     <hr>
                     <h3>Forgot Password?</h3>
                     <p>
-                        No problem, <a href="#">click here</a> to get a new password.
+                        No problem, <a href="javascript:document.forgotpassword.submit()">click here</a> to get a new password.
                     </p>    
+
+                    <form name="forgotpassword" method="post" action="/login/">
+                        <input type="hidden" name="frm_forgotpwd" value="1" />
+                    </form>
                 </div><!--/span-->
             </div><!--/row-->
             
