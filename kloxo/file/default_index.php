@@ -24,12 +24,7 @@
 	</head>
 <body>
 
-<table class="content">
-	<tr>
-		<td width="50">&nbsp;</td><td valign="top"><?php include_once $incfile; ?></td>
-		
-	</tr>
-</table>
+<?php include_once $incfile; ?></td>
 
 </body>
 
