@@ -47,6 +47,7 @@ if(!$cgi_forgotpwd ){
                         <a href="#"><i class="halflings-icon cog"></i></a>
                     </div>
                     <h2>Login to your account</h2>
+                    <div class="text-center"><?=$logfo?></div>
                    <form  class="form-horizontal" name="loginform" action="/htmllib/phplib/" onsubmit="encode_url(loginform) ; return fieldcheck(this);" method="post">
 
 
