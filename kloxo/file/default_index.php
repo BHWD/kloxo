@@ -47,63 +47,7 @@
 		<td width="280" valign="center"><img src="images/disableskeletonbg.gif"></td>
 	</tr>
 </table>
-	<!-- start: JavaScript-->
 
-		<script src="/htmllib/rh14/js/jquery-1.9.1.min.js"></script>
-	<script src="/htmllib/rh14/js/jquery-migrate-1.0.0.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery-ui-1.10.0.custom.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.ui.touch-punch.js"></script>
-	
-		<script src="/htmllib/rh14/js/modernizr.js"></script>
-	
-		<script src="/htmllib/rh14/js/bootstrap.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.cookie.js"></script>
-	
-		<script src='/htmllib/rh14/js/fullcalendar.min.js'></script>
-	
-		<script src='/htmllib/rh14/js/jquery.dataTables.min.js'></script>
-
-		<script src="/htmllib/rh14/js/excanvas.js"></script>
-	<script src="/htmllib/rh14/js/jquery.flot.js"></script>
-	<script src="/htmllib/rh14/js/jquery.flot.pie.js"></script>
-	<script src="/htmllib/rh14/js/jquery.flot.stack.js"></script>
-	<script src="/htmllib/rh14/js/jquery.flot.resize.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.chosen.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.uniform.min.js"></script>
-		
-		<script src="/htmllib/rh14/js/jquery.cleditor.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.noty.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.elfinder.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.raty.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.iphone.toggle.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.uploadify-3.1.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.gritter.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.imagesloaded.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.masonry.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.knob.modified.js"></script>
-	
-		<script src="/htmllib/rh14/js/jquery.sparkline.min.js"></script>
-	
-		<script src="/htmllib/rh14/js/counter.js"></script>
-	
-		<script src="/htmllib/rh14/js/retina.js"></script>
-
-		<script src="/htmllib/rh14/js/custom.js"></script>
-	<!-- end: JavaScript-->
 </body>
 
 </html>
