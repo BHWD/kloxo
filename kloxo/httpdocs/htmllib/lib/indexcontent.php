@@ -47,7 +47,7 @@ if(!$cgi_forgotpwd ){
                         <a href="#"><i class="halflings-icon cog"></i></a>
                     </div>
                     <h2>Login to your account</h2>
-                    <form class="form-horizontal" action="/htmllib/phplib/" onsubmit="encode_url(loginform) ; return fieldcheck(this);"  method="post">
+                    <form  name="loginform" class="form-horizontal" action="/htmllib/phplib/" onsubmit="encode_url(loginform) ; return fieldcheck(this);"  method="post">
                         <fieldset>
                             
                             <div class="input-prepend" title="Username">
@@ -63,7 +63,7 @@ if(!$cgi_forgotpwd ){
                             <div class="clearfix"></div>
                             
                             <label class="remember" for="remember"><input type="checkbox" id="remember" />Remember me</label>
-
+<input type="hidden" name="id" value="<?php echo mt_rand() ?>" />
                             <div class="button-login">  
                                 <button type="submit" class="btn btn-primary">Login</button>
                             </div>
