@@ -43,7 +43,7 @@ function domainshow()
 ?>
 <html>
 <head>
-<title>blah</title>
+<title><?php echo $title ?></title>
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <?php
 
