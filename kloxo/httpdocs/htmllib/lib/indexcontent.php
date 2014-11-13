@@ -82,7 +82,7 @@ if(!$cgi_forgotpwd ){
 
 
 
-        <!--<div id="ctr" align="center">
+        <div id="ctr" align="center">
             <div class="login">
                 <div class="login-form">
                     <div align="center"><font size="5" color="red"><b> Login </b></font></div>
@@ -111,7 +111,7 @@ if(!$cgi_forgotpwd ){
                 <div class="clr"></div>
             </div>
         </div>
-        <div id="break"></div> -->
+        <div id="break"></div> 
 
     <?php
 
