@@ -47,27 +47,16 @@ if(!$cgi_forgotpwd ){
                         <a href="#"><i class="halflings-icon cog"></i></a>
                     </div>
                     <h2>Login to your account</h2>
-                    <form  name="loginform" class="form-horizontal" action="/htmllib/phplib/" onsubmit="encode_url(loginform) ; return fieldcheck(this);"  method="post">
-                        <fieldset>
-                            
-                            <div class="input-prepend" title="Username">
-                                <span class="add-on"><i class="halflings-icon user"></i></span>
-                                <input class="input-large span10" name="username" id="username" type="text" placeholder="type username"/>
-                            </div>
-                            <div class="clearfix"></div>
-
-                            <div class="input-prepend" title="Password">
-                                <span class="add-on"><i class="halflings-icon lock"></i></span>
-                                <input class="input-large span10" name="password" id="password" type="password" placeholder="type password"/>
-                            </div>
-                            <div class="clearfix"></div>
-                            
-                            <label class="remember" for="remember"><input type="checkbox" id="remember" />Remember me</label>
-<input type="hidden" name="id" value="<?php echo mt_rand() ?>" />
-                            <div class="button-login">  
-                                <button type="submit" class="btn btn-primary">Login</button>
-                            </div>
-                            <div class="clearfix"></div>
+                   <form name="loginform" action="/htmllib/phplib/" onsubmit="encode_url(loginform) ; return fieldcheck(this);" method="post">
+                        <div class="form-block">
+                            <div class="inputlabel">Username</div>
+                            <input name="frm_clientname" type="text" class="inputbox" size="30" />
+                            <div class="inputlabel">Password</div>
+                            <input name="frm_password" type="password" class="passbox" size="30" />
+                            <br />
+                            <input type="hidden" name="id" value="<?php echo mt_rand() ?>" />
+                            <div align="left"><input type="submit" class="button" name="login" value="Login" /></div>
+                        </div>
                     </form>
                     <hr>
                     <h3>Forgot Password?</h3>
